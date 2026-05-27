@@ -170,3 +170,32 @@ div.logoBmw {
     object-fit: contain;
     animation: girar-infinito 30s linear infinite
 }
+
+#comprar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0.2vh;
+}
+
+#comprar button {
+    font-size: 20px;
+    font-style: italic;
+    width: 200px;
+    height: 70px;
+    color: white;
+    border-radius: 15px;
+    background-color: green;
+    border-color: transparent;
+}
+
+#comprar button:hover {
+    transform: scale(1.10);
+    cursor: pointer;
+    filter: brightness(1.5);
+}
+
+#comprar button:active {
+    transform: scale(1.15);
+    background-color: #79be81;
+}
